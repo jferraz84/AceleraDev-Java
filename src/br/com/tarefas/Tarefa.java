@@ -1,10 +1,10 @@
 package br.com.tarefas;
 
-public class Tarefas {
+public class Tarefa {
 
     String descricao ;
 
-    public Tarefas(String descricao) {
+    public Tarefa(String descricao) {
         this.descricao = descricao;
     }
 
