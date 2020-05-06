@@ -1,7 +1,6 @@
 package br.com;
 
 import br.com.tarefas.ListaTarefas;
-import br.com.tarefas.Tarefa;
 
 public class Principal {
 

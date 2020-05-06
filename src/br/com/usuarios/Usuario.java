@@ -1,5 +1,7 @@
 package br.com.usuarios;
 
+import br.com.relatorios.Coluna;
+
 public class Usuario {
 
     private String login;
@@ -25,6 +27,7 @@ public class Usuario {
         }
     }
 
+    @Coluna(posicao = 2, titulo = "CPF")
     public String getCpf() {
         return cpf;
     }
@@ -37,6 +40,7 @@ public class Usuario {
         }
     }
 
+    @Coluna(posicao = 1, titulo = "NOME")
     public String getNome() {
         return nome;
     }
